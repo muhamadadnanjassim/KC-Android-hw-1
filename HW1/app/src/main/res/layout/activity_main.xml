@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3A3A3A"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/PT1"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:fontFamily="@font/baloo"
+        android:hint="Homework 20%"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242" />
+
+    <EditText
+        android:id="@+id/PT2"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:fontFamily="@font/baloo"
+        android:hint="Quizes 10%"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.379" />
+
+    <EditText
+        android:id="@+id/PT3"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:fontFamily="@font/baloo"
+        android:hint="Mid terms 30%"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.516" />
+
+    <EditText
+        android:id="@+id/PT4"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:fontFamily="@font/baloo"
+        android:hint="Final 40%"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652" />
+
+    <TextView
+        android:id="@+id/T2"
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.989" />
+
+    <Button
+        android:id="@+id/B1"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/baloo"
+        android:text="Calculate"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/C1"
+        android:layout_width="310dp"
+        android:layout_height="110dp"
+        android:backgroundTint="#ff8c00"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029">
+
+        <TextView
+            android:id="@+id/T1"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Calculator"
+            android:textColor="#000000"
+            android:textSize="50dp" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/IMG"
+        android:layout_width="67dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.816"
+        app:srcCompat="@android:drawable/ic_popup_sync" />
+</androidx.constraintlayout.widget.ConstraintLayout>
